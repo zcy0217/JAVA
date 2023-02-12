@@ -7,7 +7,7 @@ public class Ex12 {
 		for (i = 1; i <= 4; i++) {			
 		    for (j = 1; j <= 4; j++) {
 			if (i < j)
-			    continue outerfor;
+			    continue outerfor; //讓他換下一行(跳到第一層加減量的地方)
 			sum = sum + (i + j);
 		     }			
 		}
